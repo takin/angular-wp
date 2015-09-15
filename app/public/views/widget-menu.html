@@ -1,0 +1,11 @@
+<div id="topbar">
+	<div id="topbar-inner">
+		<div id="sitename"><span class="site-title"><a href="/">Tech Talk</a></span>|<span class="site-subtitle">Tulisan ringan seputar TI</span></div>
+		<!-- <div id="search-box-container"><search-box></search-box></div> -->
+		<div id="nav-container">
+			<ul>
+				<li class="menu" ng-repeat="category in categories"><a href="{{category.taxonomy}}/{{ category.slug }}">{{ category.name }}</a></li>
+			</ul>
+		</div>
+	</div>
+</div>

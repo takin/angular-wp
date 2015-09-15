@@ -1,0 +1,12 @@
+<div class="article-item" ng-repeat="item in items">
+	<img src="{{item.thumb}}" alt="">
+	<div class="article-inner">
+		<div class="article-body">
+			<h2><a href="{{item.category}}/{{item.id}}">{{item.title}}</a></h2>
+			<div class="article-info">By {{item.author.name}} on {{item.date}}</div>
+			<p>{{item.excerpt}}</p>
+		</div>
+		<social-button></social-button>
+	</div>
+	<div class="clr"></div>
+</div>

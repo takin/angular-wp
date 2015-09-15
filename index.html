@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="techtalk">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to angular js</title>
+	<base href="http://techtalk.co/" />
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="app/public/css/animate.min.css">
+	<link rel="stylesheet" href="app/public/css/style.css">
+	<link rel="stylesheet" href="app/public/css/sd.css">
+</head>
+<body>
+	<div id="header-container">
+		<img src="app/public/images/aku.jpg" alt="">
+		<navigation></navigation>
+		<div id="header-inner">
+			<random-glossary></random-glossary>
+		</div>
+	</div>
+	<div id="main-container">
+		<div id="content">
+			<ng-view></ng-view>
+		</div>
+		<div id="sidebar">
+			<!-- <div id="search-box-container"><search-box></search-box></div> -->
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur est sapiente voluptatem asperiores doloribus earum, quia sequi nesciunt possimus totam inventore illum delectus dignissimos eaque mollitia adipisci, libero ducimus a.
+		</div>
+		<div id="footer" class="clr">Powered by AngularJS and Wordpress</div>
+	</div>
+	<script src="app/public/js/angular.js"></script>
+	<script src="app/public/js/angular-animate.js"></script>
+	<script src="app/public/js/angular-route.js"></script>
+	<script src="app/app.js"></script>
+</body>
+</html>
